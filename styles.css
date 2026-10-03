@@ -44,7 +44,7 @@ select {
   padding: 0 max(28px, calc((100vw - 1120px) / 2));
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background: var(--white);
   border-bottom: 1px solid var(--line);
 }
@@ -71,11 +71,6 @@ select {
   font-family: var(--serif);
   font-size: 17px;
   box-shadow: inset 3px 0 rgba(255, 255, 255, 0.2);
-}
-
-.topbar-note {
-  color: var(--muted);
-  font-size: 13px;
 }
 
 .page {
@@ -564,10 +559,6 @@ form input::placeholder,
   .topbar {
     height: 58px;
     padding: 0 18px;
-  }
-
-  .topbar-note {
-    display: none;
   }
 
   .page {
